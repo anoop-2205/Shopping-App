@@ -69,7 +69,7 @@ function Aboutus(){
 function logout() {
   var confirmLogout = confirm("Are you sure you want to logout?");
     if (confirmLogout) {
-    window.open('About/Aboutus.html', '_blank');
+    window.open('Authantication/Registration-index.html', '_blank');
     }
 }
 
@@ -139,6 +139,7 @@ function closeEditModal() {
   const editModal = document.getElementById("editModal");
   editModal.style.display = "none";
 }
+
 
 
 
