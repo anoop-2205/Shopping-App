@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>About Us</title>
+    <link rel="stylesheet" href="Aboutus.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+ 
+<body>
+    <div class="header">
+        <a href="#" class="logo"> <i class="fa fa-shopping-basket"></i> Shoping Mart</a>
+
+<nav class="navbar">
+    <a href="#home" onclick="goMainpage()">Home</a>
+    <a href="#about" onclick="Aboutus()">About us</a>
+    <a href="#products">Products</a>
+    <a href="#review">Reviews</a>
+</nav>
+
+
+<div class="icons">
+   <div class="fa fa-bars" id="menu-btn"></div>
+   <input type="text" id="search-input" class="searchforms" placeholder="Search products...">
+   <div class="fa fa-search" id="search-btn"></div>
+   <div class="fa fa-shopping-cart" id="cart-btn" onclick="openAddToCartPage()"> </div>
+   <div class="fa fa-user" id="logout-btn" onclick="logout()"></div>
+</div>
+
+</div>
+
+
+</header>
+  <section class="about">
+        <h1 class="Header">About Us!</h1>
+        <p>Shopping Mart App</p>
+        <div class="about-info">
+            <div class="about-img">
+                <img src= "Aboutus.png"alt="Anoutus">
+            </div>
+            <div>
+                <p>The best online grocery store in India. 
+                    bigbasket is an online supermarket for all your daily needs. 
+                    Online shopping now made easy with a wide range of ...</p>
+                    <br>
+                <p>The best online grocery store in India. 
+                    bigbasket is an online supermarket for all your daily needs. 
+                    Online shopping now made easy with a wide range of ...</p>
+                    <br>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Explicabo consectetur provident porro dignissimos aspernatur optio sint similique, 
+                        nobis veritatis adipisci accusantium iure soluta aliquam asperiores repellendus nihil atque? 
+                        </p>
+                           
+                <button onclick="goAboutus()">Home page</button>
+            </div>
+        </div>
+    </section>
+ 
+    <script>
+        function goAboutus(){
+        window.open('../index.html');
+  }
+
+  function goMainpage(){
+        window.open('../index.html');
+  }
+    </script>
+</body>
+ 
+</html>
+
+
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoping-app</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+        <a href="#" class="logo"> <i class="fa fa-shopping-basket"></i> Shoping Mart</a>
+
+<nav class="navbar">
+    <a href="#home" onclick="">Home</a>
+    <a href="#about" onclick="Aboutus()">About us</a>
+    <a href="#products">Products</a>
+    <a href="#review">Reviews</a>
+</nav>
+
+
+<div class="icons">
+   <div class="fa fa-bars" id="menu-btn"></div>
+   <input type="text" id="search-input" class="searchforms" placeholder="Search products...">
+   <div class="fa fa-search" id="search-btn"></div>
+   <div class="fa fa-shopping-cart" id="cart-btn" onclick="openAddToCartPage()"> </div>
+   <div class="fa fa-user" id="logout-btn" onclick="logout()"></div>
+</div>
+
+</div>
+
+
+</header>
+    
+   
+<main id="main">
+        
+</main>
+
+<div id="editModal" class="modal">
+     <div class="modal-content">
+        <span id="close-modal"class="close" onclick="closeEditModal()">&times;</span>
+        <h2>Edit Product</h2>
+        <form id="editProductForm" class="add-post-form">
+        <label for="editName">Name:</label>
+        <input type="text" id="editName" name="editName" required>
+        <label for="editPrice">Price:</label>
+        <input type="text" id="editPrice" name="editPrice" required>
+        <label for="editImageUrl">Image URL:</label>
+        <input type="text" id="editImageUrl" name="editImageUrl" required>
+        <button class="modalbtn" type="submit">Save</button>
+        </form>
+    </div>
+</div>
+    
+
+    
+
+</body>
+<script src="script.js"></script>
+</html>
+
