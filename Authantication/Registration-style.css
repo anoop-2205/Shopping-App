@@ -1,4 +1,3 @@
-
   
 *{
     margin: 0;
@@ -151,11 +150,34 @@ input:hover{
         width: 100%;
         border: none;
         font-weight: bold;
-        border-radius: 5px;
+        /* border-radius: 2000px; */
         color: white;
+        margin-bottom: 168%;
     }
     .resi-page{
         top: 20px;
     }
+    .main-heading{
+        color: rgb(10, 10, 10);
+        font-size: 40px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        margin-bottom: 180%;
+        display: none;
+        
+    }
+    .main-p{
+        color: white;
+        font-size: 12px;
+        
+    
+    }
+    .content {
+        padding: 4vh;
+        color: white;
+      
+    }
+   
     
 }
+
